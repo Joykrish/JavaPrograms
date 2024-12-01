@@ -18,6 +18,7 @@ public class DemoOneFlatMap {
 	List<Integer>lst3=Arrays.asList(5,6);
 	
 	List <List<Integer>> finalList=Arrays.asList(lst1,lst2,lst3);
+	System.out.println(finalList);
 	
 	List<Integer> finalResults=finalList.stream().flatMap(x->x.stream().map(n->n+10)).collect(Collectors.toList());
 	System.out.println(finalResults);

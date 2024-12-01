@@ -39,8 +39,8 @@ public class Filter {
 		//with stream
 		
 		//evenNumberList=numList.stream().filter(n->n%2==0).collect(Collectors.toList());
-		//numList.stream().filter(n->n%2==0).forEach(n->System.out.println(n));
-		numList.stream().filter(n->n%2==0).forEach(System.out::println);
+		numList.stream().filter(n->n%2==0).forEach(n->System.out.println(n));
+		//numList.stream().filter(n->n%2==0).forEach(System.out::println);
 		//System.out.println(evenNumberList);
 		
 		

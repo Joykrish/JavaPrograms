@@ -43,7 +43,7 @@ public class ParellelStrams {
 		.limit(3)
 		.forEach(stu->System.out.println(stu.getName()+" "+stu.getScore()));
 		
-		
+		System.out.println("---------------------------");
 	
 		//parallel Stream
 		StudentList.parallelStream()
@@ -51,7 +51,7 @@ public class ParellelStrams {
 		.limit(3)
 		.forEach(stu->System.out.println(stu.getName()+" "+stu.getScore()));
 		
-		
+		System.out.println("---------------------------");
 		//convert normal stream to parallel stream
 		StudentList.stream()
 		.parallel()

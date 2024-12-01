@@ -7,7 +7,7 @@ import internetexplore.driver.InternetExplorerDriver;
 
 public class Test {
 
-	public static String browserName = "firefox";
+	public static String browserName = "chrome";
 	public static Webdriver driver;
 
 	public static void main(String[] args) {

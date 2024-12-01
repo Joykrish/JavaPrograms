@@ -11,7 +11,7 @@ public class SwapwithTemp {
 		a = b;
 		b = temp;
 
-		System.out.println(a);
+		System.out.println(a); 
 		System.out.println(b);
 
 	}

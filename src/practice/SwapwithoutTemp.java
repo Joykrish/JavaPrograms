@@ -1,4 +1,4 @@
-package practice;
+ package practice;
 
 public class SwapwithoutTemp {
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class SwapwithoutTemp {
 		b=a-b;
 		a=a-b;
 		System.out.println("a="+a);
-		System.out.println("b="+b);
+		System.out.println("b="+b); 
 		
 	}
 	

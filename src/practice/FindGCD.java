@@ -13,11 +13,11 @@ public class FindGCD {
 		for(int i=1;i<=firstNumber&&i<=SecondNumber;i++) {
 			if(firstNumber%i==0 && SecondNumber%i==0) {
 				gcd=i;
-				//break;
+				//break;  
 			}
 		}
 		
-		System.out.println("Greatest common divisor is "+gcd);
+		System.out.println("Greatest common divisor is "+gcd); 
 	}
 
 }

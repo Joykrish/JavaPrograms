@@ -16,7 +16,7 @@ public class MapDemoTwo {
 			
 		}
 		System.out.println(len);
-		
+		System.out.println("-------------------------------------------");
 		//using Map or after java 8
 		
 		namesGod.stream().map(le->le.length()).forEach(le->System.out.println(le));
