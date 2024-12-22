@@ -7,12 +7,12 @@ public class FirstNonRepeatableCharInString {
 
 	public static void main(String[] args) {
 
-		String str1 = "HareKrishna";
+		String str1 = "harekrishna";
 		String str = str1.toLowerCase();
 
 		HashMap<Character, Integer> map = new LinkedHashMap<Character, Integer>();
 		int count = 1;
-		for (int i = 0; i < str.length(); i++)
+		for (int i = 0; i < str.length(); i++) 
 
 		{
 
@@ -24,15 +24,18 @@ public class FirstNonRepeatableCharInString {
 			}
 
 		}
-		
+		boolean isCharExists=false;
 		for(char c:map.keySet()) {
 			if (map.get(c)==1) {
 				System.out.println("First non repeated character is:"+c);
+				isCharExists=true;
 				break;
 			}
-			else  {
-				System.out.println("There is no unique character present in the string");
-			}
+			
+		}
+		
+		if(!isCharExists) {
+			System.out.println("No no repeated char exists");
 		}
 		
 		

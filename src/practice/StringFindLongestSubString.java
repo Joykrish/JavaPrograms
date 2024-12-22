@@ -2,12 +2,12 @@ package practice;
 
 import java.util.HashSet;
 
-public class FindLongestSubString {
+public class StringFindLongestSubString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str="abcdeab";
+		String str="abcdeab";  
 		
 		System.out.println(LongestSubString(str));
 		
@@ -21,7 +21,7 @@ public class FindLongestSubString {
 		for(int i=0;i<str.length();i++) {
 			char c=str.charAt(i);
 			if (set.contains(c)) {
-				longestTillNow="";
+				longestTillNow="";     
 				set.clear();
 				
 			}

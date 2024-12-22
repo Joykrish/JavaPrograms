@@ -16,7 +16,7 @@ public class StringisWellFormed {
 				st.push(ch);
 			}else if(ch=='}' && st.peek()=='{') {
 				st.pop();
-			}
+			}   
 			else if(ch==']' && st.peek()=='['){
 				st.pop();
 			}

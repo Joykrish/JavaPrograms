@@ -18,7 +18,7 @@ public class StringReversal {
 		while(!stack.isEmpty()) {
 			reversed[i]=stack.pop();
 			i++;
-		}
+		} 
 		return new String(reversed);
 	}
 	

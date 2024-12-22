@@ -13,7 +13,7 @@ public class StringDuplicateCharGenerator {
 		for(int i=0;i<str.length();i++) {
 			sb.append(str.charAt(i));
 			sb.append(str.charAt(i));
-		}
+		} 
 		
 		System.out.println(sb);
 	}

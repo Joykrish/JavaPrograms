@@ -10,7 +10,7 @@ public class LeftRotateStringbyOne {
 		
 		char first=arr[0];
 		int size=arr.length;
-		
+		 
 		
 		for(int i=0;i<arr.length-1;i++) {
 			arr[i]=arr[i+1];

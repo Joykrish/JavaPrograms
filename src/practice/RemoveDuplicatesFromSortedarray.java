@@ -19,7 +19,7 @@ public class RemoveDuplicatesFromSortedarray {
 			System.out.print(arr[k]+" ");
 		}
 	}
-	
+	 
 	
 
 }

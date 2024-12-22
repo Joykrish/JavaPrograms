@@ -12,10 +12,10 @@ public class StringfindSubstring {
 		
 		String s2="hare";
 		
-		boolean  found=false;
-		
+		boolean  found=false; 
+		 
 		for(int i=0;i<s1.length();i++) {
-			int k=i,j=0;
+			int k=i,j=0; 
 			for(j=0;j<s2.length();j++) {
 				if(s1.charAt(k)!=s2.charAt(j)) {
 					break;
