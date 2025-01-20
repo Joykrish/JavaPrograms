@@ -7,7 +7,7 @@ import java.util.List;
 
 public class ThreeArrays {
 	public static void main(String[] args) {
-		Integer a1[] = { 1, 2, 3, 9, 8, 7 };
+		Integer a1[] = { 1, 2, 3, 9, 8, 7 };     
 		Integer a2[] = { 4, 1, 2, 10, 15 };
 		Integer a3[] = { 5, 1, 2, 4, 10 };
 
@@ -20,7 +20,7 @@ public class ThreeArrays {
 		hs.addAll(l2);
 		hs.addAll(l3);
 		
-		List<Integer> finalList=new ArrayList<Integer>();
+		List<Integer> finalList=new ArrayList<Integer>( );
 
 		for (Integer ele : hs) {
 			if ((l1.contains(ele) && l2.contains(ele)) || (l2.contains(ele) && l3.contains(ele))

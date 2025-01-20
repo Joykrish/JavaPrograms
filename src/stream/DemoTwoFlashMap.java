@@ -12,14 +12,17 @@ public class DemoTwoFlashMap {
 		List<String> teamB=Arrays.asList("Hari","Haribol","harsh");
 		List<String> teamC=Arrays.asList("Giriraj","Govardhan","Guru");
 		
-		List<List<String>>PlayersinWorkCup=new ArrayList<List <String>>();
-		PlayersinWorkCup.add(teamA);
-		PlayersinWorkCup.add(teamB);
-		PlayersinWorkCup.add(teamC);
+		
+		List<List<String>>PlayersinWorkCup=Arrays.asList(teamA,teamB,teamC);
+//		
+//		List<List<String>>PlayersinWorkCup=new ArrayList<List <String>>();
+//		PlayersinWorkCup.add(teamA);
+//		PlayersinWorkCup.add(teamB);
+//		PlayersinWorkCup.add(teamC);
 		//before java 8
 		
 		for(List<String> team:PlayersinWorkCup) {
-			
+			  
 			for(String name:team) {
 				System.out.println(name);
 			}
@@ -28,7 +31,7 @@ public class DemoTwoFlashMap {
 		}
 		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++");
 		//using stream flatmap
-		List<String> names=PlayersinWorkCup.stream().flatMap(pList->pList.stream()).collect(Collectors.toList());
+		List<String> names=PlayersinWorkCup.stream().flatMap(pList->pList.stream()).map(wd->wd.toUpperCase()).collect(Collectors.toList());
 		System.out.println(names);
 	}
 

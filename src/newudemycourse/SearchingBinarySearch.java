@@ -12,7 +12,7 @@ public class SearchingBinarySearch {
 
 		// int index=BinaySearch(a,70,0,a.length-1);
 
-		int index = RecursiveBinaySearch(a, 70, 0, a.length - 1);
+		int index = BinaySearch(a, 70, 0, a.length - 1);
 		if (index == -1) {
 			System.out.println("Number not found");
 		} else {

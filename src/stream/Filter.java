@@ -15,7 +15,7 @@ public class Filter {
 //		numberList.add(15);
 //		numberList.add(18);
 //		numberList.add(23);
-//		numberList.add(26);
+//		numberList.add(26); 
 //		numberList.add(29);
 //		numberList.add(30);
 //		
@@ -30,7 +30,7 @@ public class Filter {
 //		for (Integer number : numList) {
 //			if (number%2==0) {
 //				evenNumberList.add(number);
-//			}
+//			} 
 //			
 //		}
 //		

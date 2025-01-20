@@ -1,5 +1,7 @@
 package practice;
 
+import java.util.Arrays;
+
 public class MergeTwoSortedArrays {
 	public static void main(String[] args) {
 		int [] a= {1,2,3};
@@ -35,7 +37,7 @@ public class MergeTwoSortedArrays {
 			j++;
 			k++;
 		}
-		
+		System.out.println(Arrays.toString(c));
 	}
 
 }

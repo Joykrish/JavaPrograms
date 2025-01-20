@@ -28,7 +28,7 @@ public class FilterDemofour {
 		productlist.add(new product(12,"Govardhan",1009));
 		productlist.add(new product(12,"Ram",10089));
 		
-		//productlist.stream().filter(p->p. price>110).forEach(pr->System.out.println(pr.price));
+		productlist.stream().filter(p->p. price>110).forEach(pr->System.out.println(pr.name));
 		
 		List<product> expensiveProduct=productlist.stream().filter(pr->pr.price<10000).collect(Collectors.toList());
 		expensiveProduct.forEach(pr->System.out.println(pr.price));

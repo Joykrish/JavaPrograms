@@ -7,7 +7,7 @@ public class BestTimetoBuyandSellStock {
 	public static void main(String args[]) {
 		
 		int days[]= {7,1,5,3,6,4};
-		System.out.println(MaxProfit(days));
+		System.out.println(MaxProfit(days));  
 		
 	}
 	

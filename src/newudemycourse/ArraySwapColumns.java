@@ -19,7 +19,7 @@ public class ArraySwapColumns {
 			
 		}
 		
-		for(int i =0;i<cols;i++) {
+		for(int i =0;i<cols;i++) { 
 			for(int j=0;j<rows;j++) {
 				
 				System.out.print(arr[i][j]+" ");

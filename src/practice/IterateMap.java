@@ -19,7 +19,7 @@ public class IterateMap {
 		
 		//iterateusingKeyset(map);
 		//IteratorMap(map);
-		
+		 
 		//usingEntrySet(map);
 		//usingStreams(map);
 		usingForeach(map);
@@ -45,7 +45,7 @@ public class IterateMap {
 		}
 		
 		
-		
+		 
 	}
 	public static void usingEntrySet(Map<String,Integer> map) {
 		for(Entry<String, Integer> entry:map.entrySet()) {

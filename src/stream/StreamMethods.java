@@ -9,7 +9,7 @@ public class StreamMethods {
 	public static void main(String[] args) {
 		List<String> VehicleList=Arrays.asList("Bus","car","bycycle","bus","car","bike");
 		List<String> distinctVehicle=VehicleList.stream().distinct().collect(Collectors.toList());
-		System.out.println(distinctVehicle);
+		System.out.println("Using distict value:"+distinctVehicle);
 		System.out.println("---------------------------------------");
 		
 		VehicleList.stream().distinct().forEach(value->System.out.println(value));

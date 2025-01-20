@@ -68,7 +68,7 @@ public class SortingBubbleSort {
 			array[i]=sc.nextInt();
 		}
 		
-		enhancedSort(array);
+		bubbleSort(array);
 		System.out.println(Arrays.toString(array));
 		sc.close();
 		

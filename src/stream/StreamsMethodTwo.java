@@ -14,12 +14,12 @@ public class StreamsMethodTwo {
 		//min(
 
 		Optional <Integer>min=numbers.stream().min((val1,val2)->{return val1.compareTo(val2);});
-		System.out.println(min.get());
+		System.out.println("Minimum value is: "+min.get());
 		
 		//max
 		
 		Optional <Integer>max=numbers.stream().max((val1,val2)->{return val1.compareTo(val2);});
-		System.out.println(max.get());
+		System.out.println("Max value is: "+max.get());
 	}
 
 }
