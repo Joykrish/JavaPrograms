@@ -17,7 +17,7 @@ public class queueStack {
 		{
 			stack2.push(stack1.pop());
 		}
-		int ele =stack2.pop();
+		int ele =stack2.pop(); 
 		
 		while(!stack2.isEmpty())
 		{

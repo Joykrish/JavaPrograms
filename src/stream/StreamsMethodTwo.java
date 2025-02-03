@@ -9,12 +9,14 @@ public class StreamsMethodTwo {
 		List<Integer> numbers=Arrays.asList(1,2,3,4,5,6,7,8,9,10);
 		//count()
 		long numberofEvenNumbers=numbers.stream().filter(n->n%2==0).count();
-		System.out.println(numberofEvenNumbers);
+		System.out.println("Number of even Numbers are: "+numberofEvenNumbers);
 		
 		//min(
-
+		//lamba is comparator in this case
 		Optional <Integer>min=numbers.stream().min((val1,val2)->{return val1.compareTo(val2);});
-		System.out.println("Minimum value is: "+min.get());
+		
+		int minone=min.get();
+		System.out.println("Minimum value is: "+minone);
 		
 		//max
 		
@@ -23,3 +25,6 @@ public class StreamsMethodTwo {
 	}
 
 }
+
+
+ 

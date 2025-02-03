@@ -17,7 +17,7 @@ public class StreamMethods {
 		System.out.println("Count is "+count);
 		
 		List<String> distinctVehiclelimited=VehicleList.stream().distinct().limit(2).collect(Collectors.toList());
-		System.out.println(distinctVehiclelimited);
+		System.out.println("Distinct with limit:"+distinctVehiclelimited);
 		
 		
 		VehicleList.stream().limit(3).forEach(value->System.out.println(value));
