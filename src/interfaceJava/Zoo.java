@@ -4,7 +4,7 @@ public class Zoo {
 	public static void main(String[] args) {
 		//Animal an=new Animal("black",25,5);
 		
-	//	an.eat();
+	//an.eat();
 		
 		
 		Animal fish=new Parrot("Silver",5,2);
@@ -12,12 +12,12 @@ public class Zoo {
 		fish.move();
 		
 		Animal birds=new Birds("gold",6,7);
-//		Parrot ck=new Parrot("Gray",3,1);
-//		ck.fly();
-//		fish.move();
-//		
-//		Birds bd=new Birds("White",3,1);
-//		bd.move();
+		Parrot ck=new Parrot("Gray",3,1);
+		ck.fly();
+		fish.move();
+		
+		Birds bd=new Birds("White",3,1);
+		bd.move();
 		
 		moveAnimal(fish);
 		moveAnimal(birds);

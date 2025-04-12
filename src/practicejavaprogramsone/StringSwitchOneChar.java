@@ -1,0 +1,21 @@
+package practicejavaprogramsone;
+
+import java.util.Scanner;
+
+public class StringSwitchOneChar {
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the string");
+		String str=sc.nextLine();
+		
+		String result="";
+		for(int i=0;i<str.length();i++) {
+			result=result+(char)(str.charAt(i)+1);
+		}
+		
+		System.out.println(result);
+		
+	}
+
+}
